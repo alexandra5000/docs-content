@@ -686,7 +686,7 @@ If your website and the configured endpoint have a different origin, your browse
 
 ## Explore your data in {{kib}}
 
-After ingesting OpenTelemetry RUM data, explore it in {{kib}}.
+After ingesting OpenTelemetry RUM data, you can explore it in {{kib}}.
 
 ### Available views
 
@@ -699,7 +699,7 @@ You can explore OpenTelemetry RUM data in these {{kib}} experiences:
   OpenTelemetry RUM traces are integrated with Elastic distributed tracing. Analyze request flows across browser and backend services in a single trace view.
 
 - **Discover**  
-  RUM events and metrics are indexed in {{es}}. In **Discover** you can inspect raw events, run exploratory queries, apply filters, and verify ingestion. You can also query browser Web Vitals (for example, `browser.web_vital` events) here when they are emitted. However, there is no dedicated Web Vitals UI for OpenTelemetry RUM.
+  RUM events and metrics are indexed in {{es}}. In **Discover** you can inspect raw events, run exploratory queries, apply filters, and verify ingestion. You can also query browser Web Vitals (for example, `browser.web_vital` events) when they are emitted. However, there is no dedicated Web Vitals UI for OpenTelemetry RUM.
 
 :::{note}
 The **{{user-experience}} (UX)** app shows only Elastic {{product.apm}} RUM data, not OpenTelemetry RUM. Curated RUM dashboards for OpenTelemetry are not available yet.
@@ -712,8 +712,6 @@ To verify that OpenTelemetry RUM data is reaching Elastic:
 1. Open the **Service Inventory**. To do so, find `Services` or `Applications` in the [global search field](/explore-analyze/find-and-organize/find-apps-and-objects.md) or go to **{{observability}} → Applications → Service Inventory**.
 2. Look for your browser application in the **Service Inventory**.
 3. Open **Discover** and filter for recent events from your browser application to verify that data is indexed.
-
-If data appears in **Discover** but not in the UX app or other curated RUM views, this is expected. OpenTelemetry RUM data is currently only available through the service inventory, distributed tracing, and **Discover**.
 
 ## Known limitations
 
