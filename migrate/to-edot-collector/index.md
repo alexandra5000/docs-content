@@ -1,0 +1,25 @@
+---
+navigation_title: Migrate to the EDOT Collector
+applies_to:
+  stack: ga 9.2
+  serverless:
+    observability:
+products:
+  - id: observability
+  - id: edot-collector
+---
+
+# Migrate to the {{edot}} Collector
+
+The {{edot}} Collector is a distribution of the OpenTelemetry Collector that is optimized for use with Elastic. It can replace both the APM Server and an upstream OpenTelemetry Collector in your telemetry pipeline.
+
+## Migration paths
+
+[](/migrate/to-edot-collector/from-apm-agents.md)
+:   Use the Elastic APM intake receiver to route classic {{apm-agent}} data through the {{edot}} Collector. This enables a gradual migration to OpenTelemetry without requiring immediate agent re-instrumentation.
+
+[Migrate deprecated components](/migrate/to-edot-collector/migrate-components.md)
+:   Update your {{edot}} Collector configuration to replace deprecated components with their current equivalents.
+
+[](/migrate/to-edot-collector/from-upstream-collector.md)
+:   Move from a vanilla upstream OpenTelemetry Collector deployment to the {{edot}} Collector.
