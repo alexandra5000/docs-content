@@ -133,7 +133,7 @@ If you're running earlier versions of {{es}} without Agent Builder, you can use 
 
 ### Automatic Migration
 
-[Automatic Migration](/solutions/security/get-started/automatic-migration.md) uses AI to help you migrate Splunk assets to {{elastic-sec}} by translating them into the necessary format and adding them to your {{elastic-sec}} environment. It supports the following asset types:
+[Automatic Migration](/migrate/to-elastic-security/automatic-migration.md) uses AI to help you migrate Splunk assets to {{elastic-sec}} by translating them into the necessary format and adding them to your {{elastic-sec}} environment. It supports the following asset types:
 
 * Splunk rules
 * Splunk dashboards
