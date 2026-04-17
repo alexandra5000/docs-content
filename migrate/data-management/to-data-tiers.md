@@ -24,7 +24,7 @@ While we recommend relying on automatic data tier allocation to manage your data
 
 If you are using node attributes from the default deployment template in {{ech}} or {{ece}}, you will be prompted to switch to node roles when you:
 
-* Upgrade to {{es}} 7.10 or higher
+* Upgrade to {{es}} 7.10 or later
 * Deploy a warm, cold, or frozen data tier
 * [Enable autoscaling](/deploy-manage/autoscaling.md)
 

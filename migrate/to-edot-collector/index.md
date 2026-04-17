@@ -11,7 +11,7 @@ products:
 
 # Migrate to the {{edot}} Collector
 
-The {{edot}} Collector is a distribution of the OpenTelemetry Collector that is optimized for use with Elastic. It can replace both the {{apm-server}} and an upstream OpenTelemetry Collector in your telemetry pipeline.
+The {{edot}} Collector is a distribution of the OpenTelemetry Collector that is optimized for use with Elastic. It can replace both the {{apm-server}} and an contrib OpenTelemetry Collector in your telemetry pipeline.
 
 ## Migration paths
 
@@ -22,4 +22,4 @@ The {{edot}} Collector is a distribution of the OpenTelemetry Collector that is 
 :   Update your {{edot}} Collector configuration to replace deprecated components with their current equivalents.
 
 [](/migrate/to-edot-collector/from-upstream-collector.md)
-:   Move from a vanilla upstream OpenTelemetry Collector deployment to the {{edot}} Collector.
+:   Move from a contrib OpenTelemetry Collector deployment to the {{edot}} Collector.

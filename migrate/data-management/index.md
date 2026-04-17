@@ -13,7 +13,7 @@ products:
 
 # Migrate to {{ilm-init}} [migrate-ilm]
 
-You may already be another mechanism to manage the lifecycle of your indices. To help you adapt your existing indices to use {{ilm}}, a few guides are available:
+You might already be another mechanism to manage the lifecycle of your indices. To help you adapt your existing indices to use {{ilm}}, a few guides are available:
 
 [](/migrate/data-management/to-ilm.md) {applies_to}`ess:` {applies_to}`ece:`
 :   Describes how to migrate {{es}} indices in an {{ech}} or {{ece}} deployment from using deprecated index curation or another periodic indices management mechanism to use {{ilm}}.

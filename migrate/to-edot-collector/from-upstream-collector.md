@@ -15,7 +15,7 @@ The {{edot}} Collector is a curated distribution of the OpenTelemetry Collector,
 
 - Pre-configured pipelines for common scenarios (standalone Linux/Windows, {{k8s}} DaemonSet/Gateway)
 - Elastic-specific components not available in the contrib Collector, such as the `elasticsearchexporter` for native {{es}} ingestion and the `elasticapmconnector` for {{product.apm}} metrics aggregation
-- Central management of Collector configuration through [OpAMP](/reference/central-configuration.md)
+- Central management of Collector configuration through [OpAMP](opentelemetry://reference/central-configuration.md)
 - Official Elastic support with SLAs
 
 For a full comparison, refer to [EDOT compared to upstream OpenTelemetry](opentelemetry://reference/compatibility/edot-vs-upstream.md).

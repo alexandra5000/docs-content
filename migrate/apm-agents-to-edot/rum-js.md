@@ -24,7 +24,7 @@ EDOT Browser provides the following capabilities:
 
 - Automatic instrumentation of page loads, user interactions, and network requests
 - Distributed tracing across browser and backend services
-- OTLP export to the {{edot}} Collector or the [{{motlp}}](/reference/motlp/index.md)
+- OTLP export to the {{edot}} Collector or the [{{motlp}}](opentelemetry://reference/motlp.md)
 
 Full feature parity with the classic Elastic {{product.apm}} browser agent and dedicated migration tooling are not yet available.
 
