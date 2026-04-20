@@ -1,10 +1,6 @@
 project: 'Migrate'
 toc:
   - file: index.md
-  - file: beats-to-elastic-agent/index.md
-    children:
-      - file: beats-to-elastic-agent/migrate-from-beats.md
-      - file: beats-to-elastic-agent/migrate-from-auditbeat.md
   - file: apm-agents-to-edot/index.md
     children:
       - title: Java
@@ -24,6 +20,10 @@ toc:
       - title: Migrate deprecated components
         crosslink: elastic-agent://reference/edot-collector/components/migrate-components.md
       - file: to-edot-collector/from-upstream-collector.md
+  - file: beats-to-elastic-agent/index.md
+    children:
+      - file: beats-to-elastic-agent/migrate-from-beats.md
+      - file: beats-to-elastic-agent/migrate-from-auditbeat.md
   - file: elasticsearch-data/index.md
     children:
       - file: elasticsearch-data/cluster-to-cluster.md
