@@ -1,5 +1,5 @@
 ---
-navigation_title: Modernize data management
+navigation_title: Migrate data management patterns
 mapped_pages:
   - https://www.elastic.co/guide/en/cloud-enterprise/current/ece-migrate-index-management.html
   - https://www.elastic.co/guide/en/cloud/current/ec-migrate-index-management.html
@@ -11,7 +11,7 @@ products:
   - id: cloud-hosted
 ---
 
-# Modernize data management [migrate-ilm]
+# Migrate data management patterns [migrate-ilm]
 
 If you're using older lifecycle or allocation patterns, these guides help you migrate to current {{es}} features:
 

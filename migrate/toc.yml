@@ -1,6 +1,12 @@
 project: 'Migrate'
 toc:
   - file: index.md
+  - file: elasticsearch-data/index.md
+    children:
+      - file: elasticsearch-data/cluster-to-cluster.md
+      - file: elasticsearch-data/with-logstash.md
+      - file: elasticsearch-data/remote-reindex.md
+      - file: elasticsearch-data/system-indices.md
   - file: apm-agents-to-edot/index.md
     children:
       - title: Java
@@ -24,12 +30,6 @@ toc:
     children:
       - file: beats-to-elastic-agent/migrate-from-beats.md
       - file: beats-to-elastic-agent/migrate-from-auditbeat.md
-  - file: elasticsearch-data/index.md
-    children:
-      - file: elasticsearch-data/cluster-to-cluster.md
-      - file: elasticsearch-data/with-logstash.md
-      - file: elasticsearch-data/remote-reindex.md
-      - file: elasticsearch-data/system-indices.md
   - file: data-management/index.md
     children:
       - file: data-management/to-ilm.md
